@@ -2,9 +2,10 @@
 ## Predicting sales in dollars of outlet store food items.
 Author:  Rashad N. Campbell
 
-GOAL:  Create a prediction model to forcast total sale prices of food items at multiple outlet store types.
+### Business problem:
+We need to predict individual item food sales each month to properly manage fixed food storage for each store outlet type.
 
-OVERVIEW OF DATA:
+### DATA:
 Individual items are represented by these attributes:
  1)   Item_Identifier
  2)   Item_Weight
@@ -20,3 +21,8 @@ Individual items are represented by these attributes:
  11)  Item_Outlet_Sales 
 
 Some attributes may be removed from the model because of their low or non-relevance to the prediction of the total sales of individual items.
+
+### Methods
+*  The Item_Identifier attribute was removed from the dataset because it has no relevance towards sales prediction.
+*  Outlet_Size value range was changed from Small, Medium, High, to Small, Medium, Large.
+
