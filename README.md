@@ -1,5 +1,10 @@
-# Food-Sales-Predictions
-Predicting sales in dollars of outlet store food items.
+# Food sales for next year.
+
+---
+
+## Predicting sales in dollars of outlet store food items.
+
+---
 
 GOAL:  Create a prediction model to forcast total sale prices of food items at multiple outlet store types.
 
