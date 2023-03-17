@@ -1,7 +1,4 @@
 # Food sales for next year.
-
----
-
 ## Predicting sales in dollars of outlet store food items.
 
 ---
