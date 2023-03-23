@@ -33,10 +33,10 @@ The above represents the footprint of all Outlets by their type.
 ### Model
 The final Decision Tree model used is tuned to predict sales of food items in each outlet.  R2 and RMSE was calculated and compared between both a Linear Regression model and Decision Tree model where the Decision Tree model was able to produce better predictive results based on its minimal tuning.
 
-Minimal tuning of the Decision Tree produced an R2 score of 60.18% I believe is high enough to invest more time towards increasing its score by further model tuning.  RMSE gives us a resonably low dollar amount of variance of predicting sales that are 1,170.18 dollars over or under of actual real world values of our training data.  The goal is to have the lowest RMSE possible. In this case, RMSE represents a predicted sales. With the tested Decision Tree R2 being at 60.18%, this tells me that my tested RMSE of 1170.18 will be in this range about 60.18% of the time. Meaning there is another 40% chance RMSE will be some value higher. This overall is not a good result. Ideally I would aim to tune models where test data produces the lowest RMSE possible and the highest R2 possible. Where R2 is as close to 1 as possible.
+Root Mean Squre Error (RMSE) was used to ultimatly decide on which model was better and should be used to produce predictions.  Analysis shows improved performance in RMSE from the Decision Tree model.
 
 ### Limitations & Next Steps
-Overall the Decision Tree model looks to have good enough baseline performace to invest more time into further tuning the model to further increase its overall predictive accuracy.  If the Decision Tree model can be brought to an minimal R2 score of 80%, I believe this would be good as a starting baseline target.  An R2 score of 90% would be ideal.
+It's recommended that the metric Mean Absolute Error (MAE) be used to make a better assessment of the model perfomance because of the very large varience in target training data (Item_Outlet_Sales).  MAE will give a better understanding of predictive error for the entire range of sales predictions in the dataset.
 
 ### For further information:
 For any additional questions, please contact the author at **chicagovt@gmail.com**
