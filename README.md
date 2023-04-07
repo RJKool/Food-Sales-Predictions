@@ -1,4 +1,4 @@
-# **PROJECTED FOOD SALES FOR Q4**
+# **PROJECTED FOOD SALES FOR Q4 USING PREDICTIVE MODELS**
 ## Predicting sales in dollars of outlet store food items.
 Author:  Rashad N. Campbell
 
