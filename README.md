@@ -31,12 +31,10 @@ Some attributes may be removed from the model because of their low or non-releva
 The above represents the footprint of all Outlets by their type.
 
 ### Model
-The final Decision Tree model used is tuned to predict sales of food items in each outlet.  R2 and RMSE was calculated and compared between both a Linear Regression model and Decision Tree model where the Decision Tree model was able to produce better predictive results based on its minimal tuning.
-
-Root Mean Squre Error (RMSE) was used to ultimatly decide on which model was better and should be used to produce predictions.  Analysis shows improved performance in RMSE from the Decision Tree model.
+Two models used for prediction (Elastic Net Linear Regression and Decision Tree).  From their individual results of tuned parameters (below), the Elastic Net model has a higher percentage R2 (preferred) on the test data, as well as a lower RMSE (preferred) on the test data. As of now both models are producing lower than ideal results.
 
 ### Limitations & Next Steps
-It's recommended that the metric Mean Absolute Error (MAE) be used to make a better assessment of the model perfomance because of the very large varience in target training data (Item_Outlet_Sales).  MAE will give a better understanding of predictive error for the entire range of sales predictions in the dataset.
+It's recommended that the metric Mean Absolute Error (MAE) be used to make a better assessment of the model perfomance because of the very large varience in target training data (Item_Outlet_Sales).  MAE will give a better understanding of predictive error for the entire range of sales predictions in the dataset by directly representing predictive error (plus or minus) in the units of our selected target we are attempting to predict.  In this case our target unit of measure is dollars.
 
 ### For further information:
 For any additional questions, please contact the author at **chicagovt@gmail.com**
