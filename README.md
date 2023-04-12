@@ -5,6 +5,8 @@ Author:  Rashad N. Campbell
 ### Business problem:
 We need to predict individual item food sales each month to properly manage fixed food storage for each store outlet type.
 
+The dataset represents grocery store items in detail, by class.  Indivdual items in this dataset should mostly be grouped by the Outlet Type of the sold item.
+
 ### DATA:
 Individual items are represented by these attributes:
  1)   Item_Identifier
@@ -28,7 +30,12 @@ Some attributes may be removed from the model because of their low or non-releva
 
 ### Results
 ![image](https://user-images.githubusercontent.com/123280849/225897471-df06e5c5-e546-4040-9808-04ddb48cd520.png)
+
 The above represents the footprint of all Outlets by their type.
+
+![image](https://user-images.githubusercontent.com/123280849/231463976-227c9e7a-cfe4-4bee-b94b-15637a06f0c2.png)
+
+The above image shows that sales of Fruits and Vegetables and Snack Foods are the top to items stocked by all grocery stores.  Perhaps the assumption that people who eat poorly is all wrong based on the near equal amount of fruits and vegetables that are purchased.
 
 ### Model
 Two models used for prediction (Elastic Net Linear Regression and Decision Tree).  From their individual results of tuned parameters (below), the Elastic Net model has a higher percentage R2 (preferred) on the test data, as well as a lower RMSE (preferred) on the test data. As of now both models are producing lower than ideal results.
